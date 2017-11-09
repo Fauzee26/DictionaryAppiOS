@@ -8,7 +8,6 @@
 
 import Foundation
 class Kamus {
-    var nomor: String = ""
     var indo: String = ""
     var inggris: String = ""
 }

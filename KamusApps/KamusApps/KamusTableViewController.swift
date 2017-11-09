@@ -11,6 +11,9 @@ import UIKit
 class KamusTableViewController: UITableViewController {
     let kamusURL = "http://localhost/KamusApp/index.php/api/getAllKamus"
     var kamus = [Kamus]()
+    var indoSelected:String?
+    var inggrisSelected:String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -42,9 +45,9 @@ class KamusTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! KamusTableViewCell
         
-        cell.labelNomor.text = kamus[indexPath.row].nomor
         cell.labelIndo.text = kamus[indexPath.row].indo
         cell.labelInggris.text = kamus[indexPath.row].inggris
+        
         return cell
     }
     func getKamus() {
@@ -95,7 +98,6 @@ class KamusTableViewController: UITableViewController {
                 //declare loan as object from class loan
                 let KaMuS = Kamus()
                 //enter the value to each object from class loan
-                KaMuS.nomor = jsonLoan["id_kamus"] as! String
                 KaMuS.indo = jsonLoan["kamus_indonesia"] as! String
                 KaMuS.inggris = jsonLoan["kamus_inggris"] as! String
                 //process enter data to object
