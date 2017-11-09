@@ -89,7 +89,6 @@ class KamusTableViewController: UITableViewController {
         do{
             //declare jsonResult for take data from the json
             let jsonResult = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary
-            
             //parse json data
             let jsonLoans = jsonResult?["data"] as! [AnyObject]
             for jsonLoan in jsonLoans {
