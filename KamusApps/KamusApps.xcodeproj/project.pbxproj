@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A07501C01FB3FEC500A3783B /* Kamus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07501BF1FB3FEC500A3783B /* Kamus.swift */; };
+		A07501C21FB3FED300A3783B /* KamusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07501C11FB3FED300A3783B /* KamusTableViewCell.swift */; };
+		A07501C41FB3FEE500A3783B /* KamusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07501C31FB3FEE500A3783B /* KamusTableViewController.swift */; };
 		A0B454621FAC551D005A1ED4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B454611FAC551D005A1ED4 /* AppDelegate.swift */; };
 		A0B454641FAC551D005A1ED4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B454631FAC551D005A1ED4 /* ViewController.swift */; };
 		A0B454671FAC551D005A1ED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B454651FAC551D005A1ED4 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A07501BF1FB3FEC500A3783B /* Kamus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kamus.swift; sourceTree = "<group>"; };
+		A07501C11FB3FED300A3783B /* KamusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KamusTableViewCell.swift; sourceTree = "<group>"; };
+		A07501C31FB3FEE500A3783B /* KamusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KamusTableViewController.swift; sourceTree = "<group>"; };
 		A0B4545E1FAC551D005A1ED4 /* KamusApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KamusApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B454611FAC551D005A1ED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0B454631FAC551D005A1ED4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 				A0B454611FAC551D005A1ED4 /* AppDelegate.swift */,
 				A0B454631FAC551D005A1ED4 /* ViewController.swift */,
 				A0B454651FAC551D005A1ED4 /* Main.storyboard */,
+				A07501BF1FB3FEC500A3783B /* Kamus.swift */,
+				A07501C11FB3FED300A3783B /* KamusTableViewCell.swift */,
+				A07501C31FB3FEE500A3783B /* KamusTableViewController.swift */,
 				A0B454681FAC551D005A1ED4 /* Assets.xcassets */,
 				A0B4546A1FAC551D005A1ED4 /* LaunchScreen.storyboard */,
 				A0B4546D1FAC551D005A1ED4 /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07501C01FB3FEC500A3783B /* Kamus.swift in Sources */,
 				A0B454641FAC551D005A1ED4 /* ViewController.swift in Sources */,
+				A07501C41FB3FEE500A3783B /* KamusTableViewController.swift in Sources */,
 				A0B454621FAC551D005A1ED4 /* AppDelegate.swift in Sources */,
+				A07501C21FB3FED300A3783B /* KamusTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
